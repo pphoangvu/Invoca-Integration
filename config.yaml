@@ -1,0 +1,19 @@
+APP:
+  ENVIRONMENT: 'DEV'
+  DEBUG: 0
+  SQLSERVER:
+    DRIVER: "ODBC+Driver+17+for+SQL+Server"
+    DIALECT: "mssql+pyodbc"
+  PREFECTBLOCKS:
+    DB: 
+      DEV: sql-server-auth-dev
+      STG: sql-server-auth-stg
+      QA: sql-server-auth-qa
+      PROD: sql-server-auth-prod
+    API:
+      DEV: invoca-api-dev
+      STG: invoca-api-stg
+      QA: invoca-api-qa
+      PROD: invoca-api-prod
+DATABASE:
+  DATABASENAME: Invoca
